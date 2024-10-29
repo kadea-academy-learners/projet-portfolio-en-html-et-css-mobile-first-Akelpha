@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #262626;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  max-width: 1350px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: auto;
+  line-height: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.h1 {
+  font-size: 3rem;
+}
+.h2 {
+  font-size: 2.5rem;
+}
+.h3 {
+  font-size: 1.2rem;
+}
+.p {
+  font-size: 1rem;
+}
+.text-small {
+  font-size: small;
+}
+.text-bold {
+  font-weight: bold;
+}
+.text-center {
+  text-align: center;
+}
+.flex {
+  display: flex;
+}
+.flex-justify-center {
+  justify-content: center;
+}
+.flex-justify-space-between {
+  justify-content: space-between;
+}
+.flex-align-center {
+  align-items: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-column {
+  flex-direction: column;
+}
+.gap-xl {
+  gap: 60px;
+}
+.gap-xxl {
+  gap: 300px;
+}
+.gap-4xl {
+  gap: 500px;
+}
+.gap-l {
+  gap: 40px;
+}
+
+.menu:not(:first-child):before {
+  content: "|";
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.list-style-none {
+  list-style: none;
+}
+.margin-auto {
+  margin: auto;
+}
+.padding-y-xxl {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.padding-y-l {
+  padding-top: 10px;
+  padding-bottom: 70px;
+}
+
+.padding-y-m {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.padding-y-s {
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+.padding-left-m {
+  padding-left: 30px;
+}
+.bordered {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+.top-bordered {
+  border-top-color: #e0e0e0;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+.width-fit {
+  width: -moz-fit-content; /* For Firefox */
+  width: fit-content; /* Standard syntax */
+}
+.width-full {
+  width: 484px;
+  height: 484px;
+}
+.rounded {
+  border-radius: 50%;
+}
+
+.bg-yellow {
+  background-color: #eea302;
+}
+.bg-red {
+  background-color: #e13b25;
+}
+.bg-blue {
+  background-color: #80d8da;
+}
+.button {
+  width: 100px;
+  min-height: 100px;
+}
+.mainIndex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 190px;
+  gap: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.mainCv section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+}
+.mainContact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.mainContactdiv {
+  margin: 20px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.width-p {
+  width: 67%;
+}
+.bordered-img {
+  border: 20px solid #e0e0e0;
+}
+.outline-img {
+  outline: #e0e0e0;
+  border-radius: 10%;
+}
+.height-100 {
+  height: 100px;
+}
+.width-100 {
+  width: 100px;
+}
+.flex-1 {
+  flex: 1;
+}
+input,
+textarea {
+  font-size: 1rem;
+  border-width: 2px;
+  padding: 0 5px;
+  border-width: 2px;
+  font-size: 1rem;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.max-width-1100 {
+  max-width: 1100px;
+}
+.resize-none {
+  resize: none;
+}
+.aForm {
+  color: purple;
+  font-size: large;
+}
+@media (width <= 610px) {
+  .h3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
