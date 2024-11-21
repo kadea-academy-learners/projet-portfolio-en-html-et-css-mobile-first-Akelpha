@@ -1,59 +1,81 @@
-/* CV Main */
-main {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  padding: 20px;
-  margin: 20px 0px;
+main{
+   display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin: 50px 0px;
 }
 main h2{
-  text-align: center;
-  padding-top: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
-.top-bordered {
-  border-top: 1px solid #e0e0e0;
-  padding-top: 20px;
+main div {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
-main section {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+main div div{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
 }
-main section h2 {
-  padding: 20px 0px;
+.onlyMF img{
+   border: 15px solid #e0e0e0; 
 }
-main section h3 {
-  padding: 10px 0px;
+.notMF{
+    display: none;
 }
-main section ul {
-  padding-left: 30px;
-}
-main section ul li a {
-  color: purple;
-  font-size: large;
-}
-main section article {
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
-main section article span {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-}
-@media only screen and (min-width: 740px) and (max-width: 1730px){
-  main h2{
-    text-align: justify;
-   
-  }
-} 
-@media only screen and (min-width: 992px) {
-  body {
-    margin: 0px 40px;
-  }
+@media only screen and (min-width: 740px) and (max-width: 900px){
+    .onlyMF {
+        display: none; 
+     }
+    .notMF{
+        display: block;
+        padding-top: 70px;
+      
+    }
+    .notMF img{
+        border: 15px solid #e0e0e0; 
+        width: 340px;
+    }
+  
+    main h2{ 
+        text-align: justify;
+    }
+    main div {
+        gap: 40px;
+        flex-direction: row;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 
 }
-
+@media only screen and (min-width: 900px) and (max-width: 1730px){
+    .onlyMF {
+        display: none; 
+     }
+    .notMF{
+        display: block;
+        padding-top: 70px;
+      
+    }
+    .notMF img{
+        border: 15px solid #e0e0e0; 
+        width: 540px;
+    }
+  main{
+    margin: 50px 50px;
+  }
+    main h2{ 
+        text-align: justify;
+    }
+    main div {
+        gap: 250px;
+        flex-direction: row;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
 /* These comments below are the css'style used by me for the desktop first
 
 .h1 {
@@ -226,7 +248,10 @@ textarea {
 .resize-none {
   resize: none;
 }
-
+.aForm {
+  color: purple;
+  font-size: large;
+}
 
  Small devices (portrait tablets and large phones, 600px and up) 
 @media only screen and (min-width: 600px) and (max-width: 700px) {
@@ -303,6 +328,7 @@ textarea {
     align-items: center;
     gap: 10px;
   }
-} ;
+} 
+ Extra small devices (phones, 600px and down)
+  @media only screen and (max-width: 600px) {...}  */
 
- */
