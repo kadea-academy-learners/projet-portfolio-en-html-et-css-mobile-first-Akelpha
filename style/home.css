@@ -36,6 +36,7 @@ main div:nth-child(2) p {
 }
 main div:nth-child(2) div {
   display: flex;
+  justify-content: space-between;
   gap: 20px;
 }
 main div:nth-child(2) div p a {
@@ -63,7 +64,7 @@ main div:nth-child(2) div p a {
   font-size: 1rem;
   text-align: center;
 }
-@media only screen and (min-width: 320px) and (max-width: 480px){
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   main div:first-child img {
     width: 184px;
     height: 184px;
@@ -125,7 +126,8 @@ main div:nth-child(2) div p a {
     width: 67%;
   }
   main div:nth-child(2) div {
+    justify-content: flex-start;
+    gap: 40px;
     flex-direction: row;
   }
 }
-
