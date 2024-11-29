@@ -32,7 +32,7 @@ main div:nth-child(2) h3 {
 }
 main div:nth-child(2) p {
   font-size: 1rem;
-  text-align: justify;
+  text-align: center;
 }
 main div:nth-child(2) div {
   display: flex;
@@ -84,7 +84,7 @@ main div:nth-child(2) div p a {
 }
 @media only screen and (min-width: 480px) and (max-width: 992px) {
   main div:nth-child(2) p {
-    text-align: justify;
+    text-align: center;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 1rem;
@@ -120,6 +120,7 @@ main div:nth-child(2) div p a {
     margin-bottom: 10px;
   }
   main div:nth-child(2) p {
+    text-align: justify;
     font-size: 1rem;
   }
   .width-p {
