@@ -40,7 +40,7 @@ main section article {
   padding-top: 20px;
   padding-bottom: 10px;
 }
-main section article span {
+main section article div {
   display: flex;
   justify-content: space-between;
   gap: 10px;
