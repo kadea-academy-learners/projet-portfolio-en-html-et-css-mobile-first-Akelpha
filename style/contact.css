@@ -20,6 +20,7 @@ main .rigth-side {
 input,
 textarea {
   border: 2px solid black;
+  width: 100%;
 }
 input {
   padding: 8px 50px;
@@ -29,6 +30,7 @@ textarea {
   resize: none;
   padding: 40px 57px;
 }
+
 .formBtn {
   display: flex;
   justify-content: center;
@@ -36,8 +38,8 @@ textarea {
 }
 .formBtn button {
   margin: 10px 0px;
-  width: 160px;
-  height: 160px;
+  width: 130px;
+  height: 130px;
   border: 1px solid black;
   border-radius: 50%;
   font-size: 18px;
@@ -56,6 +58,7 @@ textarea {
 
   .inputPart {
     display: flex;
+    align-items: center;
     flex-direction: row;
     gap: 50px;
   }
@@ -118,6 +121,7 @@ textarea {
   .inputPart {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 80px;
   }
   input {
