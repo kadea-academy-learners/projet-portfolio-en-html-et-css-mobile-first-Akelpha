@@ -3,15 +3,16 @@ main {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  padding: 20px;
+  padding: 0px 9px;
   margin: 20px 0px;
 }
-main h2{
-  text-align: center;
+main h2 {
+  font-size: 22px;
+  text-align: justify;
   padding-top: 10px;
 }
 .top-bordered {
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid #000;
   padding-top: 20px;
 }
 main section {
@@ -20,13 +21,16 @@ main section {
   gap: 10px;
 }
 main section h2 {
-  padding: 20px 0px;
+  padding-top: 10px;
 }
 main section h3 {
-  padding: 10px 0px;
+  font-size: medium;
 }
+/* main section p {
+  font-size: small;
+} */
 main section ul {
-  padding-left: 30px;
+  padding-left: 20px;
 }
 main section ul li a {
   color: purple;
@@ -36,20 +40,18 @@ main section article {
   padding-top: 20px;
   padding-bottom: 10px;
 }
-main section article span {
+main section article div {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 10px;
 }
-@media only screen and (min-width: 740px) and (max-width: 1730px){
-  main h2{
+@media only screen and (min-width: 740px) and (max-width: 1730px) {
+  main h2 {
     text-align: justify;
-   
   }
-} 
+}
 @media only screen and (min-width: 992px) {
   body {
     margin: 0px 40px;
   }
-
 }
