@@ -16,7 +16,9 @@ main .rigth-side {
   margin: 20px 0px;
   gap: 20px;
 }
-
+fieldset {
+  border: none;
+}
 input,
 textarea {
   border: 2px solid black;
@@ -56,17 +58,26 @@ textarea {
     gap: 20px;
   }
 
-  .inputPart {
+  fieldset {
     display: flex;
     align-items: center;
     flex-direction: row;
-    gap: 50px;
+    gap: 40px;
+  }
+  .inputPart {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .inputPart label {
+    text-align: left; /* Aligne le texte du label à gauche */
+    width: 100%; /* Assure que le label prend toute la largeur disponible */
   }
   input {
     padding: 10px 85px;
   }
   textarea {
-    padding: 40px 90px;
+    padding: 40px 92px;
   }
 }
 @media only screen and (min-width: 950px) and (max-width: 1024px) {
@@ -86,10 +97,20 @@ textarea {
     margin-left: 50px;
     gap: 20px;
   }
+  fieldset {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+  }
   .inputPart {
     display: flex;
-    flex-direction: row;
-    gap: 20px;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .inputPart label {
+    text-align: left; /* Aligne le texte du label à gauche */
+    width: 100%; /* Assure que le label prend toute la largeur disponible */
   }
   input {
     padding: 10px 40px;
@@ -118,11 +139,20 @@ textarea {
     gap: 20px;
   }
 
+  fieldset {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+  }
   .inputPart {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 80px;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .inputPart label {
+    text-align: left; /* Aligne le texte du label à gauche */
+    width: 100%; /* Assure que le label prend toute la largeur disponible */
   }
   input {
     padding: 10px 45px;
