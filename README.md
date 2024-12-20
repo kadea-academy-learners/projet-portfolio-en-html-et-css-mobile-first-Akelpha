@@ -45,7 +45,6 @@ PortFolio De Keren Nzira
 ├── index.html # Page principale de l'application
 ├── html # autres fichiers html
 ├── style # Fichiers CSS pour le style
-├── js # Fichiers JavaScript pour la logique
 └── README.md # Documentation du projet
 ```
 
